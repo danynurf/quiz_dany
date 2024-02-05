@@ -1,0 +1,193 @@
+:root {
+    --neutral: #fff;
+    --neutral-50: #F0F1F3;
+    --primary: #A53DFF;
+    --primary-100: #fde9fd;
+    --gray-900: #132238;
+    --gray-100:#E6E8EB;
+    --gray-200: #C3C7CE;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--gray-900);
+}
+
+.nav-container {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+}
+
+.nav-text {
+    color: var(--neutral-800);
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.nav-text:hover {
+    color: var(--primary) !important;
+}
+
+.nav-text:visited {
+    color: var(--neutral-800);
+}
+
+.active-nav {
+    color: var(--primary) !important;
+    font-weight: 500;
+}
+
+.contact-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    height: auto;
+    padding: 8px 12px;
+    font-weight: 500;
+}
+
+.contact-btn:hover {
+    background-color: var(--primary);
+    color: var(--neutral);
+}
+
+.contact-btn:active {
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.hero-btn {
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--neutral);
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+.hero-btn:hover {
+    background-color: var(--neutral);
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.hero-btn:active {
+    background-color: var(--primary);
+    color: var(--neutral);
+}
+
+.about-me-card,
+.hero-img-wrapper {
+    box-shadow: 0 36px 105px #2b384c1c;
+    border-radius: 20px;
+}
+
+.about-me-btn {
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    color: var(--neutral);
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: 1px solid var(--primary);
+}
+
+.about-me-btn:last-child {
+    background-color: transparent;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.project-card {
+    border: 1px solid var(--gray-100);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    box-shadow: 0 36px 105px #2b384c1c;
+    cursor: pointer;
+}
+
+.project-card-content {
+    background-color: var(--neutral);
+}
+
+.project-card-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.project-card-btn:hover {
+    background-color: var(--primary);
+    color: var(--neutral);
+}
+
+.project-card-btn:active {
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.project-btn,
+.cta-btn {
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--neutral);
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.project-btn:hover {
+    background-color: transparent;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.cta-btn:hover {
+    background-color: transparent;
+    border: 1px solid var(--neutral);
+    color: var(--neutral);
+    font-weight: 500;
+}
+
+.project-btn:active,
+.cta-btn:active {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--neutral);
+}
+
+.circ {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: var(--gray-200);
+}
+
+.circ:hover {
+    width: 30px;
+    background-color: var(--gray-900);
+    cursor: pointer;
+}
+
+.active-circ {
+    width: 30px;
+    background-color: var(--gray-900);
+}
